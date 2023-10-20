@@ -10,7 +10,7 @@ const hbs = create.create({
 // Register `hbs.engine` with the Express app.
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
-app.set("views", "views");
+app.set("views", path.join(__dirname, "views"));
 
 // app.use(express.static(path.join(__dirname, "static")));
 // app.use("/", require(path.join(__dirname, "routes/blog.js")));
