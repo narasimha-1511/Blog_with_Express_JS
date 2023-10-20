@@ -15,4 +15,14 @@ router.get("/blog", (req, res) => {
   });
 });
 
+router.get("/blog/:slug", (req, res) => {
+  blogPost = blog.filter((post) => {
+    return post.slug == req.params.slug;
+  });
+  res.render("blogs", {
+    title: blogPost[0].title,
+    content: blogPost[0].content,
+  });
+});
+
 module.exports = router;
