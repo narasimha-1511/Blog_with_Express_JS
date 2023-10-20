@@ -9,4 +9,10 @@ router.get("/", (req, res) => {
   res.render("home");
 });
 
+router.get("/blog", (req, res) => {
+  res.render("bloghome", {
+    blog: blog,
+  });
+});
+
 module.exports = router;

@@ -1,0 +1,48 @@
+<style>
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.blog {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.blog a:hover {
+  color: #f00;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+ {{#each blog}}
+    <div class="blog">
+      <a href="/blog/{{this.slug}}"><h2>{{this.title}}</h2></a>
+    </div>
+  {{/each}}
+
+</div>
