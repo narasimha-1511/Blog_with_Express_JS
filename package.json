@@ -1,0 +1,14 @@
+{
+  "name": "expressjs_fromstarting_github",
+  "version": "1.0.0",
+  "description": "Beginner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Narasimha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
