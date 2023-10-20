@@ -12,11 +12,11 @@ app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 app.set("views", path.join(__dirname, "views"));
 
-// app.use(express.static(path.join(__dirname, "static")));
-// app.use("/", require(path.join(__dirname, "routes/blog.js")));
-app.get("/", (req, res) => {
-  res.render("home", { title: "Home" });
-});
+app.use(express.static(path.join(__dirname, "static")));
+app.use("/", require(path.join(__dirname, "routes/blog.js")));
+// app.get("/", (req, res) => {
+//   res.render("home", { title: "Home" });
+// });
 
 app.listen(3000, () => {
   console.log(`Server is listening to http://localhost:3000`);
