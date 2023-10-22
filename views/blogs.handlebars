@@ -3,5 +3,10 @@
 <div class="container">
 
 <h2>{{title}}</h2>
-<p>{{content}}</p>
+<p id="content"></p>
 </div>
+<script>
+  const pythonGuide = {{content}};
+  const pythonGuideContainer = document.getElementById('content');
+  pythonGuideContainer.innerHTML = pythonGuide;
+</script>
