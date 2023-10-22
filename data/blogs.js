@@ -1,6 +1,7 @@
 let blogs = [
   {
     title: "How to get started with python",
+
     content: `Getting started with Python is relatively straightforward and beginner-friendly. Here's a step-by-step guide to help you begin your journey with Python:<br>
 
 <b>1. Install Python:</b><br>
@@ -47,6 +48,7 @@ let blogs = [
     - Python is a skill that improves with practice. The more you code and work on projects, the better you'll become.<br>
 
 Remember that learning any programming language takes time and patience. Don't be discouraged by initial challenges, and keep experimenting and building to enhance your Python skills.`,
+
     slug: "python",
   }
 ];
