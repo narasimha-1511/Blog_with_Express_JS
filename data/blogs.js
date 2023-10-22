@@ -15,9 +15,9 @@ blogs = [
 3. **Write and Run Your First Python Program:**
    - Open your code editor or IDE, create a new Python file (usually with a .py extension), and write a simple Python program. For example, you can start with a classic "Hello, World!" program:
 
-   ```python
+   \`\`\`python
    print("Hello, World!")
-   ```
+   \`\`\`
 
 4. **Understanding Python Syntax:**
    - Python uses indentation (whitespace) to define blocks of code. Indentation is crucial, so make sure your code is properly formatted. Study Python's basic syntax rules, such as variables, data types, and common operators.
