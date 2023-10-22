@@ -1,7 +1,8 @@
 blogs = [
   {
     title: "How to get started with python",
-    content: "This is Content python",
+    content: `Hey Hello This is narasimha 
+    ttrying to learn python`,
     slug: "python",
   },
   {
