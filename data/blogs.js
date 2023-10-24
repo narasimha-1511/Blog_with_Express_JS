@@ -1,7 +1,8 @@
 let blogs = [
-{
-  title: "How to get started with python",
-  content: `Getting started with Python is relatively straightforward and beginner-friendly. Here's a step-by-step guide to help you begin your journey with Python:<br><br>
+  {
+    title: "How to get started with python",
+    img: "python-logo.png",
+    content: `Getting started with Python is relatively straightforward and beginner-friendly. Here's a step-by-step guide to help you begin your journey with Python:<br><br>
   <b>1. Install Python:</b><br>
   - First, you need to install Python on your computer if it's not already installed. Visit the official Python website at python.org to download the latest version of Python. Follow the installation instructions for your operating system.<br><br>
   <b>2. Choose a Code Editor or IDE:</b><br>
@@ -33,11 +34,12 @@ let blogs = [
   <b>12. Keep Practicing:</b><br>
   - Python is a skill that improves with practice. The more you code and work on projects, the better you'll become.<br><br>
   Remember that learning any programming language takes time and patience. Don't be discouraged by initial challenges, and keep experimenting and building to enhance your Python skills.`,
-  slug: "python",
-},
-{
-  title: "How to get started with Java",
-  content: `Check if Java is installed: You can do this by typing the following in Command Prompt (cmd.exe): java -version. If Java is installed, you will see something like this: java version "11.0.1" 2018-10-16 LTS1.<br><br>
+    slug: "python",
+  },
+  {
+    title: "How to get started with Java",
+    img: "Java-Logo.png",
+    content: `Check if Java is installed: You can do this by typing the following in Command Prompt (cmd.exe): java -version. If Java is installed, you will see something like this: java version "11.0.1" 2018-10-16 LTS1.<br><br>
   Install Java: If you do not have Java installed on your computer, you can download it for free at oracle.com1.<br><br>
   Set up your environment: To install Java on Windows, go to “System Properties” (Can be found on Control Panel > System and Security > System > Advanced System Settings). Click on the “Environment variables” button under the “Advanced” tab. Then, select the “Path” variable in System variables and click on the “Edit” button1.<br><br>
   Write your first program: In Java, every application begins with a class name, and that class must match the filename. Let’s create our first Java file, called Main.java, which can be done in any text editor (like Notepad). The file should contain a “Hello World” message1.<br><br>
@@ -50,11 +52,11 @@ let blogs = [
   }
   </pre><br><br>
   Compile and run your program: Save the code in Notepad as “Main.java”. Open Command Prompt (cmd.exe), navigate to the directory where you saved your file, and type javac Main.java. This will compile your code. If there are no errors in the code, the command prompt will take you to the next line. Now, type java Main to run the file1.`,
-  slug: "java",
-},
-{
-  title: "How to get started with Kotlin",
-  content: `Getting started with Kotlin is a great choice if you're interested in a modern and concise programming language. Here's a step-by-step guide to help you begin your journey with Kotlin:<br><br>
+    slug: "java",
+  },
+  {
+    title: "How to get started with Kotlin",
+    content: `Getting started with Kotlin is a great choice if you're interested in a modern and concise programming language. Here's a step-by-step guide to help you begin your journey with Kotlin:<br><br>
   <b>1. Install Kotlin:</b><br>
   - First, you need to install Kotlin on your computer. You can use a build tool like Gradle or Maven to include Kotlin in your project, or you can download and install the Kotlin compiler directly from the official Kotlin website.<br><br>
   <b>2. Choose a Code Editor or IDE:</b><br>
@@ -82,11 +84,11 @@ let blogs = [
   - As you become more proficient, you can explore more advanced topics like coroutines, Android app development with Kotlin, and server-side development.<br><br>
   <b>11. Continuous Learning:</b><br>
   - Keep learning and improving your Kotlin skills by working on real-world projects and collaborating with other Kotlin developers.`,
-  slug: "kotlin",
-},
-{
-  title: "How to get started with JavaScript",
-  content: `JavaScript is a versatile and widely used programming language for web development. Here's a guide to help you start your journey with JavaScript:<br><br>
+    slug: "kotlin",
+  },
+  {
+    title: "How to get started with JavaScript",
+    content: `JavaScript is a versatile and widely used programming language for web development. Here's a guide to help you start your journey with JavaScript:<br><br>
   <b>1. Environment Setup:</b><br>
   - JavaScript runs in web browsers, so you only need a text editor (e.g., Visual Studio Code, Sublime Text) and a web browser (e.g., Google Chrome, Mozilla Firefox). You can start writing JavaScript code in your browser's developer console.<br><br>
   <b>2. Hello, World!:</b><br>
@@ -112,11 +114,11 @@ let blogs = [
   - JavaScript has extensive online documentation. Explore Mozilla Developer Network (MDN) and websites like Stack Overflow for valuable resources and support.<br><br>
   <b>11. Continuous Learning:</b><br>
   - JavaScript evolves, and new features are regularly added. Stay updated with the latest JavaScript features and best practices. As you gain experience, you can dive into more advanced topics like ES6, TypeScript, and modern web development techniques.`,
-  slug: "javascript",
-},
-{
-  title: "How to get started with C",
-  content: `Getting started with the C programming language is a great way to build a solid foundation in computer programming. Here's a step-by-step guide to help you begin your journey with C:<br><br>
+    slug: "javascript",
+  },
+  {
+    title: "How to get started with C",
+    content: `Getting started with the C programming language is a great way to build a solid foundation in computer programming. Here's a step-by-step guide to help you begin your journey with C:<br><br>
   <b>1. Set Up Your Development Environment:</b><br>
   - To write and compile C programs, you'll need a C compiler. You can install a C development environment like GCC (GNU Compiler Collection) on your computer. Popular code editors like Visual Studio Code, Sublime Text, or Dev-C++ can help you write and compile C code.<br><br>
   <b>2. Write Your First C Program:</b><br>
@@ -145,11 +147,11 @@ let blogs = [
   - C has extensive online documentation. Explore websites like Learn-C.org, GeeksforGeeks, and Stack Overflow for tutorials, examples, and community support.<br><br>
   <b>10. Continuous Learning:</b><br>
   - C is a foundational language, and mastering it takes time. Keep practicing, working on projects, and learning more about C as you advance your programming skills.`,
-  slug: "c",
-},
-{
-  title: "How to get started with C++",
-  content: `C++ is a versatile and powerful programming language widely used for systems programming, game development, and more. Here's a guide to help you start your journey with C++:<br><br>
+    slug: "c",
+  },
+  {
+    title: "How to get started with C++",
+    content: `C++ is a versatile and powerful programming language widely used for systems programming, game development, and more. Here's a guide to help you start your journey with C++:<br><br>
   <b>1. Set Up Your Development Environment:</b><br>
   - To write and compile C++ programs, you'll need a C++ compiler like g++, which is part of the GCC suite. Choose a code editor or integrated development environment (IDE) like Visual Studio Code, CLion, or Code::Blocks.<br><br>
   <b>2. Write Your First C++ Program:</b><br>
@@ -178,11 +180,11 @@ let blogs = [
   - C++ has extensive online documentation. Explore websites like cplusplus.com, GeeksforGeeks, and Cppreference for tutorials, examples, and community support.<br><br>
   <b>10. Continuous Learning:</b><br>
   - C++ is a powerful language with a wide range of applications. Keep improving your skills by working on projects and staying updated with modern C++ features and best practices.`,
-  slug: "c++",
-},
-{
-  title: "How to get started with Ruby",
-  content: `Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity. Here's a guide to help you start your journey with Ruby:<br><br>
+    slug: "c++",
+  },
+  {
+    title: "How to get started with Ruby",
+    content: `Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity. Here's a guide to help you start your journey with Ruby:<br><br>
   <b>1. Install Ruby:</b><br>
   - Begin by installing Ruby on your computer. You can download the latest version of Ruby from the official Ruby website. Follow the installation instructions for your operating system.<br><br>
   <b>2. Choose a Code Editor:</b><br>
@@ -206,11 +208,11 @@ let blogs = [
   - Ruby has a vibrant community with numerous online resources. Explore websites like Ruby-lang.org, RubyGems.org, and Stack Overflow for tutorials, documentation, and support.<br><br>
   <b>10. Continuous Learning:</b><br>
   - As you become more proficient, consider exploring web development with Ruby on Rails, testing with RSpec, and other Ruby-related technologies. Keep practicing to enhance your Ruby skills.`,
-  slug: "ruby",
-},
-{
-  title: "How to get started with PHP",
-  content: `PHP is a widely used server-side scripting language for web development. Here's a guide to help you start your journey with PHP:<br><br>
+    slug: "ruby",
+  },
+  {
+    title: "How to get started with PHP",
+    content: `PHP is a widely used server-side scripting language for web development. Here's a guide to help you start your journey with PHP:<br><br>
   <b>1. Set Up a Local Development Environment:</b><br>
   - To start coding in PHP, set up a local development environment. Install a web server (e.g., Apache or Nginx), a PHP interpreter, and a database system (e.g., MySQL or MariaDB) on your computer. Alternatively, you can use a pre-packaged solution like XAMPP or WampServer.<br><br>
   <b>2. Choose a Code Editor:</b><br>
@@ -236,11 +238,11 @@ let blogs = [
   - PHP has an extensive online community and documentation. Explore resources like the official PHP documentation, PHP The Right Way, and websites like Stack Overflow for tutorials, examples, and support.<br><br>
   <b>10. Continuous Learning:</b><br>
   - Web development with PHP is a vast field. As you become more proficient, explore topics like security, performance optimization, and the use of content management systems (CMS) like WordPress and Joomla. Keep practicing and building projects to improve your PHP skills.`,
-  slug: "php",
-},
-{
-  title: "How to get started with Solidity",
-  content: `Solidity is a high-level programming language used for developing smart contracts on the Ethereum blockchain. Here's a guide to help you start your journey with Solidity:<br><br>
+    slug: "php",
+  },
+  {
+    title: "How to get started with Solidity",
+    content: `Solidity is a high-level programming language used for developing smart contracts on the Ethereum blockchain. Here's a guide to help you start your journey with Solidity:<br><br>
   <b>1. Set Up Ethereum Development Environment:</b><br>
   - To write and deploy Solidity smart contracts, you'll need a development environment for Ethereum. Start by installing Ethereum client software like Geth or Ganache for local development.<br><br>
   <b>2. Choose a Code Editor or IDE:</b><br>
@@ -269,11 +271,11 @@ let blogs = [
   - Solidity has an active online community. Explore resources like the Solidity documentation, Ethereum Stack Exchange, and forums like Reddit's r/ethereum for tutorials and support.<br><br>
   <b>10. Continuous Learning:</b><br>
   - Solidity and Ethereum development are continually evolving. Stay updated with the latest Solidity features, best practices, and security considerations. As you gain more experience, work on complex smart contract projects and explore decentralized application (DApp) development.`,
-  slug: "solidity",
-},
-{
-  title: "How to get started with Rust",
-  content: `Rust is a modern and memory-safe systems programming language known for its performance and safety features. Here's a guide to help you start your journey with Rust:<br><br>
+    slug: "solidity",
+  },
+  {
+    title: "How to get started with Rust",
+    content: `Rust is a modern and memory-safe systems programming language known for its performance and safety features. Here's a guide to help you start your journey with Rust:<br><br>
   <b>1. Install Rust:</b><br>
   - Begin by installing Rust on your computer using the official Rust installer. Rust has excellent tooling, and the package manager Cargo is an integral part of Rust development.<br><br>
   <b>2. Choose a Code Editor or IDE:</b><br>
@@ -299,11 +301,11 @@ let blogs = [
   - Rust has an active community and extensive documentation. Explore resources like the official Rust documentation, the Rust subreddit, and the Rust forum for tutorials, examples, and community support.<br><br>
   <b>10. Continuous Learning:</b><br>
   - As you become more proficient in Rust, explore advanced topics like building web APIs, system programming, and diving into specific domains like game development or embedded systems. Rust's emphasis on safety and performance makes it a versatile language for various projects.`,
-  slug: "rust",
-},
-{
-  title: "How to get started with Node.js",
-  content: `Node.js is a runtime environment that allows you to run JavaScript on the server side. Here's a guide to help you start your journey with Node.js:<br><br>
+    slug: "rust",
+  },
+  {
+    title: "How to get started with Node.js",
+    content: `Node.js is a runtime environment that allows you to run JavaScript on the server side. Here's a guide to help you start your journey with Node.js:<br><br>
   <b>1. Install Node.js:</b><br>
   - Begin by installing Node.js on your computer. You can download the latest version of Node.js from the official website. This installation also includes npm, the Node Package Manager.<br><br>
   <b>2. Choose a Code Editor or IDE:</b><br>
@@ -329,8 +331,8 @@ let blogs = [
   - Node.js has a vibrant community and extensive online documentation. Explore resources like the official Node.js documentation, the Node.js subreddit, and forums like Stack Overflow for tutorials, examples, and community support.<br><br>
   <b>11. Continuous Learning:</b><br>
   - As you become more proficient in Node.js, explore advanced topics like real-time applications using WebSockets, serverless computing, and microservices architecture. Node.js is a versatile runtime environment, and there's always more to learn.`,
-  slug: "nodejs",
-},
+    slug: "nodejs",
+  },
 ];
 
 module.exports = blogs;

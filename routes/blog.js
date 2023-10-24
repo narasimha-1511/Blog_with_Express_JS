@@ -15,6 +15,7 @@ router.get("/blog", (req, res) => {
   });
 });
 
+
 router.get("/blog/:slug", (req, res) => {
   blogPost = blog.filter((post) => {
     return post.slug == req.params.slug;
